@@ -16,10 +16,13 @@ alias t='tmux'
 alias e='exit'
 alias v='nvim'
 
-# ssh cluster
-alias ctp='ssh ubuntu-control-plane'
-alias wn1='ssh ubuntu-worker-node01'
-alias wn2='ssh ubuntu-worker-node02'
+# ssh 
+alias ctp='ssh ctp'
+alias wn1='ssh wn1'
+alias wn2='ssh wn2'
+alias rpi='ssh rpi'
+alias tempus='ssh tempus'
+alias nas='ssh nas'
 
 #Directories defined in env var using export
 alias repo='cd $REPOS'
