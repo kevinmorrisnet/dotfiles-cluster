@@ -1,3 +1,4 @@
+export PATH="$HOME/.local/bin:$PATH"
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
 # If not running interactively, don't do anything
@@ -158,8 +159,6 @@ complete -o default -F __start_kubectl k
 # Flux completion bash
 command -v flux >/dev/null && . <(flux completion bash)
 
-#helm completion
-source <(helm completion bash)
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/kevin/google-cloud-sdk/path.bash.inc' ]; then . '/home/kevin/google-cloud-sdk/path.bash.inc'; fi
