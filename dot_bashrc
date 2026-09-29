@@ -170,5 +170,3 @@ if [ -f '/home/kevin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/kevi
 # Fix GNOME dock/screenshot keybinding conflict
 gsettings set org.gnome.shell.keybindings switch-to-application-4 "[]"
 
-#terraform completion
-complete -C /home/kevin/.local/share/mise/installs/terraform/1.15.8/terraform terraform
